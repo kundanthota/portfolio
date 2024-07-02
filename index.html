@@ -1,0 +1,1051 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <title>Kundan Portfolio</title>
+
+    <meta name="description" content="Kundan Portfolio">
+    <meta name="author" content="Kundan">
+    <meta name="robots" content="noindex, nofollow">
+
+    <meta property="og:title" content="Kundan Portfolio">
+    <meta property="og:site_name" content="Portfolio">
+    <meta property="og:description" content="Kundan Portfolio">
+    <meta property="og:type" content="website">
+
+    
+    <link rel="icon" type="image/png" href="assets/media/kundan/KT.png">
+
+
+    <link rel="stylesheet" id="css-main" href="assets/css/all.min.css">
+  
+
+    <style>
+      .skill-container {
+          background: #fff;
+          margin: 10px 0;
+          padding: 20px;
+          border-radius: 8px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          transition: transform 0.2s;
+      }
+      .skill-container:hover {
+          transform: scale(1.02);
+      }
+      .skill-title {
+          color: #007bff;
+          margin-bottom: 10px;
+      }
+      .skill-details {
+          margin-bottom: 10px;
+      }
+
+        .carousel-control-prev, .carousel-control-next {
+            background-color: black;
+            width: 5%;
+            height: 15%;
+            top: 50%;
+            transform: translateY(-50%);
+            border-radius: 10%;
+            opacity: 0.5;
+        }
+        .carousel-control-prev:hover, .carousel-control-next:hover {
+            opacity: 1;
+        }
+
+
+      .carousel-control-prev {
+        left: 10px;
+      }
+      .carousel-control-next {
+        right: 10px;
+      }
+      .carousel-image {
+    height: 600px; 
+    object-fit: contain; 
+      }
+      .carousel-caption {
+            padding: 15px;
+            border-radius: 10px;
+            width: 90%;
+            left: 5%;
+            bottom: 50%;
+            transform: translatey(50%);
+        }
+        .carousel-caption h1 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+        .carousel-caption h2 {
+            font-size: 1.2rem;
+            margin-bottom: 8px;
+            text-align: left; 
+        }
+        .carousel-caption p, .carousel-caption ul {
+            font-size: 0.9rem;
+            line-height: 1.3;
+            margin-bottom: 8px;
+            text-align: left; 
+        }
+        .carousel-caption ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .carousel-caption ul li {
+            margin: 5px 0;
+        }
+        .carousel-caption ul li ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        .carousel-caption ul li ul li {
+            margin: 3px 0;
+        }
+
+
+      .pop-effect:hover {
+    transform: scale(1.03); 
+    border-color: rgb(46, 44, 44);
+      } 
+  </style>
+
+
+  </head>
+
+  <body>
+
+    <div id="page-container" class="main-content-boxed bg-black-25">
+
+      <div class="modal" id="modal-block-normal" tabindex="-1" aria-labelledby="modal-block-normal" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="block block-rounded block-themed block-transparent mb-0">
+              <div class="block-header bg-primary-dark">
+                <h3 class="block-title">Bio</h3>
+                <div class="block-options">
+                  <button type="button" class="btn-block-option" data-bs-dismiss="modal" aria-label="Close">
+                    <i class="fa fa-fw fa-times"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="block-content">
+                <p>Detail-oriented, self-motivated, and organized professional with a Master of Science in Computer Science,
+                   specializing in research, design, and implementation of machine learning models. Proven expertise in scientific 
+                   publications, algorithm development, and the end-to-end process of training and deploying machine learning models. 
+                   Adept at developing APIs and skilled in both front-end and back-end development. Passionate about AI methods and 
+                   eager to contribute to projects as a versatile professional.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal" id="modal-info" tabindex="-1" aria-labelledby="modal-block-normal" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="block block-rounded block-themed block-transparent mb-0">
+              <div class="block-content">
+                <div class="d-flex justify-content-end">
+                  <button type="button" class="btn-block-option text-end" data-bs-dismiss="modal" aria-label="Close" style="color: red;">
+                      <b>close</b>
+                  </button>
+                </div>
+                <div class="skill-container">
+                  <p class="skill-title"><b>Email</b></p>
+                  <p class="skill-details">kundanthota@gmail.com</p>
+                </div>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal" id="modal-ml" tabindex="-1" aria-labelledby="modal-block-normal" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="block block-rounded block-themed block-transparent mb-0">
+              <div class="block-content">
+                <div class="d-flex justify-content-end">
+                  <button type="button" class="btn-block-option text-end" data-bs-dismiss="modal" aria-label="Close" style="color: red;">
+                      <b>close</b>
+                  </button>
+                </div>
+
+                <div class="skill-container">
+                  <p class="skill-title"><b>Machine Learning</b></p>
+                  <p class="skill-details"><b>Years of Experience:</b> 5 years</p>
+                  <p class="skill-details"><b>Usage Context:</b> Throughout various roles including Data Scientist, Machine Learning Engineer, and Researcher.</p>
+                  <p class="skill-details"><b>Impact:</b> Developed numerous ML models for optimizing industrial processes, fine-tuning YOLOv5 for accident detection, and creating recommendation engines that enhanced product returns cost efficiency. Improved operational efficiency, road safety, and user engagement through advanced ML techniques.</p>
+              </div>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="modal" id="modal-dl" tabindex="-1" aria-labelledby="modal-block-normal" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="block block-rounded block-themed block-transparent mb-0">
+              <div class="block-content">
+                <div class="d-flex justify-content-end">
+                  <button type="button" class="btn-block-option text-end" data-bs-dismiss="modal" aria-label="Close" style="color: red;">
+                      <b>close</b>
+                  </button>
+                </div>
+               
+                <div class="skill-container">
+                  <p class="skill-title"><b>Deep Learning</b></p>
+                  <p class="skill-details"><b>Years of Experience:</b> 5 years</p>
+                  <p class="skill-details"><b>Usage Context:</b> Implemented deep learning models during my tenure at companies like Shapematchr GmbH and Fraunhofer IOSB, as well as in academic research projects.</p>
+                  <p class="skill-details"><b>Impact:</b> Enhanced model accuracy for 3D body shape estimation, improved personalized product recommendations, and streamlined ML model training processes, leading to higher efficiency and accuracy in various applications.</p>
+              </div>
+
+              <div class="skill-container">
+                <p class="skill-title"><b>Graph Neural Networks</b></p>
+                <p class="skill-details"><b>Years of Experience:</b> 2 years</p>
+                <p class="skill-details"><b>Usage Context:</b> Applied in research projects such as Human Cloth Generation for different pose sequences.</p>
+                <p class="skill-details"><b>Impact:</b> Enabled the generation of realistic human clothes in various poses, improving the accuracy and visual appeal of virtual try-on applications and advancing the field of 3D human pose estimation.</p>
+            </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="modal" id="modal-cv" tabindex="-1" aria-labelledby="modal-block-normal" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="block block-rounded block-themed block-transparent mb-0">
+              <div class="block-content">
+                <div class="d-flex justify-content-end">
+                  <button type="button" class="btn-block-option text-end" data-bs-dismiss="modal" aria-label="Close" style="color: red;">
+                      <b>close</b>
+                  </button>
+                </div>
+
+                <div class="skill-container">
+                  <p class="skill-title"><b>Computer Vision</b></p>
+                  <p class="skill-details"><b>Years of Experience:</b> 4 years</p>
+                  <p class="skill-details"><b>Usage Context:</b> Implemented in projects for real-time accident detection, 3D body shape estimation, and virtual try-on applications.</p>
+                  <p class="skill-details"><b>Impact:</b> Improved road safety, user engagement, and the accuracy of AI models in understanding and interpreting visual data, leading to innovative solutions in various domains.</p>
+              </div>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="modal" id="modal-nlp" tabindex="-1" aria-labelledby="modal-block-normal" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="block block-rounded block-themed block-transparent mb-0">
+              <div class="block-content">
+                <div class="d-flex justify-content-end">
+                  <button type="button" class="btn-block-option text-end" data-bs-dismiss="modal" aria-label="Close" style="color: red;">
+                      <b>close</b>
+                  </button>
+                </div>
+
+                <div class="skill-container">
+                  <p class="skill-title"><b>Natural Language Processing (NLP)</b></p>
+                  <p class="skill-details"><b>Years of Experience:</b> 4 years</p>
+                  <p class="skill-details"><b>Usage Context:</b> Applied in projects like Improving Pairs Trading with News Sentiment.</p>
+                  <p class="skill-details"><b>Impact:</b> Enabled the extraction of valuable insights from textual data, improving trading strategies and decision-making processes by incorporating sentiment analysis and enhancing the prediction accuracy of financial models.</p>
+              </div>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="modal" id="modal-tsa" tabindex="-1" aria-labelledby="modal-block-normal" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="block block-rounded block-themed block-transparent mb-0">
+              <div class="block-content">
+                <div class="d-flex justify-content-end">
+                  <button type="button" class="btn-block-option text-end" data-bs-dismiss="modal" aria-label="Close" style="color: red;">
+                      <b>close</b>
+                  </button>
+                </div>
+                <div class="skill-container">
+                  <p class="skill-title"><b>Time Series Analysis</b></p>
+                  <p class="skill-details"><b>Years of Experience:</b> 3 years</p>
+                  <p class="skill-details"><b>Usage Context:</b> Applied in financial projects like stock data analysis and pairs trading strategies.</p>
+                  <p class="skill-details"><b>Impact:</b> Enhanced the prediction and analysis of financial markets, resulting in more effective trading strategies and better investment decisions.</p>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <div class="modal" id="modal-ip" tabindex="-1" aria-labelledby="modal-block-normal" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="block block-rounded block-themed block-transparent mb-0">
+              <div class="block-content">
+                <div class="d-flex justify-content-end">
+                  <button type="button" class="btn-block-option text-end" data-bs-dismiss="modal" aria-label="Close" style="color: red;">
+                      <b>close</b>
+                  </button>
+                </div>
+               
+                <div class="skill-container">
+                  <p class="skill-title"><b>Image Processing, Image Analysis, Image Segmentation</b></p>
+                  <p class="skill-details"><b>Years of Experience:</b> 4 years</p>
+                  <p class="skill-details"><b>Usage Context:</b> Key component in projects at Shapematchr GmbH, DFKI Kaiserslautern, and Fraunhofer IOSB.</p>
+                  <p class="skill-details"><b>Impact:</b> Enhanced the accuracy of 3D body shape estimation and virtual try-on applications, improving user experience and the effectiveness of AI-driven solutions in image-related tasks.</p>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <div class="modal" id="modal-python" tabindex="-1" aria-labelledby="modal-block-normal" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="block block-rounded block-themed block-transparent mb-0">
+              <div class="block-content">
+                <div class="d-flex justify-content-end">
+                  <button type="button" class="btn-block-option text-end" data-bs-dismiss="modal" aria-label="Close" style="color: red;">
+                      <b>close</b>
+                  </button>
+                </div>
+
+                <div class="skill-container">
+                  <p class="skill-title"><b>Python</b></p>
+                  <p class="skill-details"><b>Years of Experience:</b> 5 years</p>
+                  <p class="skill-details"><b>Usage Context:</b> Fundamental language for implementing various machine learning algorithms, data analysis, scripting tasks, and automation.</p>
+                  <p class="skill-details"><b>Impact:</b> Contributed to the development of robust and scalable solutions across different domains, supporting data-driven decision-making processes and enhancing operational efficiencies.</p>
+              </div>
+
+              <div class="skill-container">
+                <p class="skill-title"><b>Numpy / Pandas</b></p>
+                <p class="skill-details"><b>Years of Experience:</b> 5 years</p>
+                <p class="skill-details"><b>Usage Context:</b> Extensively used in data manipulation and analysis in every project, including stock data retrieval and analysis at Sociovestix Labs.</p>
+                <p class="skill-details"><b>Impact:</b> Enabled efficient data handling and transformation, significantly improving the speed and quality of data analysis tasks and supporting the development of accurate predictive models.</p>
+            </div>
+
+            <div class="skill-container">
+              <p class="skill-title"><b>Scikit-Learn</b></p>
+              <p class="skill-details"><b>Years of Experience:</b> 5 years</p>
+              <p class="skill-details"><b>Usage Context:</b> Used for building and evaluating machine learning models at Fraunhofer IOSB and in academic research.</p>
+              <p class="skill-details"><b>Impact:</b> Enhanced model performance and operational efficiency through the development of optimization models and real-time training applications, resulting in better decision-making processes and improved operational metrics.</p>
+          </div>
+            
+            <div class="skill-container">
+              <p class="skill-title"><b>PyTorch</b></p>
+              <p class="skill-details"><b>Years of Experience:</b> 4 years</p>
+              <p class="skill-details"><b>Usage Context:</b> Core framework used in almost all projects, including fine-tuning YOLOv5, developing recommendation engines, and research publications.</p>
+              <p class="skill-details"><b>Impact:</b> Facilitated the development of high-performance machine learning models, leading to significant advancements in real-time accident detection, personalized recommendations, and academic contributions to the AI community.</p>
+          </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="modal" id="modal-vue" tabindex="-1" aria-labelledby="modal-block-normal" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="block block-rounded block-themed block-transparent mb-0">
+              <div class="block-content">
+                <div class="d-flex justify-content-end">
+                  <button type="button" class="btn-block-option text-end" data-bs-dismiss="modal" aria-label="Close" style="color: red;">
+                      <b>close</b>
+                  </button>
+                </div>
+
+                <div class="skill-container">
+                  <p class="skill-title"><b>Web Development (HTML/CSS/JS/Vue.js)</b></p>
+                  <p class="skill-details"><b>Years of Experience:</b> 3 years</p>
+                  <p class="skill-details"><b>Usage Context:</b> Developed user-friendly web interfaces and portals for data visualization and interaction with ML models at various companies.</p>
+                  <p class="skill-details"><b>Impact:</b> Enhanced user engagement and productivity by creating intuitive web applications.</p>
+              </div>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="modal" id="modal-mongodb" tabindex="-1" aria-labelledby="modal-block-normal" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="block block-rounded block-themed block-transparent mb-0">
+              <div class="block-content">
+                <div class="d-flex justify-content-end">
+                  <button type="button" class="btn-block-option text-end" data-bs-dismiss="modal" aria-label="Close" style="color: red;">
+                      <b>close</b>
+                  </button>
+                </div>
+
+                <div class="skill-container">
+                  <p class="skill-title"><b>MongoDB</b></p>
+                  <p class="skill-details"><b>Years of Experience:</b> 3 years</p>
+                  <p class="skill-details"><b>Usage Context:</b> Used for storing and managing large datasets in web applications and backend systems.</p>
+                  <p class="skill-details"><b>Impact:</b> Facilitated scalable data storage solutions and efficient data retrieval processes, contributing to the development of robust backend systems.</p>
+              </div>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="modal" id="modal-git" tabindex="-1" aria-labelledby="modal-block-normal" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="block block-rounded block-themed block-transparent mb-0">
+              <div class="block-content">
+                <div class="d-flex justify-content-end">
+                  <button type="button" class="btn-block-option text-end" data-bs-dismiss="modal" aria-label="Close" style="color: red;">
+                      <b>close</b>
+                  </button>
+                </div>
+
+                <div class="skill-container">
+                  <p class="skill-title"><b>Git - Version Control</b></p>
+                  <p class="skill-details"><b>Years of Experience:</b> 5 years</p>
+                  <p class="skill-details"><b>Usage Context:</b> Essential for version control and collaborative development across all software projects.</p>
+                  <p class="skill-details"><b>Impact:</b> Improved team collaboration, code management, and project organization, ensuring version control and code stability throughout development cycles.</p>
+              </div>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="modal" id="modal-fastapi" tabindex="-1" aria-labelledby="modal-block-normal" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="block block-rounded block-themed block-transparent mb-0">
+              <div class="block-content">
+                <div class="d-flex justify-content-end">
+                  <button type="button" class="btn-block-option text-end" data-bs-dismiss="modal" aria-label="Close" style="color: red;">
+                      <b>close</b>
+                  </button>
+                </div>
+
+                <div class="skill-container">
+                  <p class="skill-title"><b>FastAPI</b></p>
+                  <p class="skill-details"><b>Years of Experience:</b> 3 years</p>
+                  <p class="skill-details"><b>Usage Context:</b> Used for developing fast and efficient APIs for web applications and microservices.</p>
+                  <p class="skill-details"><b>Impact:</b> Enabled rapid development of backend services with high performance and scalability, improving the responsiveness and efficiency of web applications.</p>
+              </div>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="modal" id="modal-docker" tabindex="-1" aria-labelledby="modal-block-normal" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="block block-rounded block-themed block-transparent mb-0">
+              <div class="block-content">
+                <div class="d-flex justify-content-end">
+                  <button type="button" class="btn-block-option text-end" data-bs-dismiss="modal" aria-label="Close" style="color: red;">
+                      <b>close</b>
+                  </button>
+                </div>
+
+                <div class="skill-container">
+                  <p class="skill-title"><b>Docker</b></p>
+                  <p class="skill-details"><b>Years of Experience:</b> 4 years</p>
+                  <p class="skill-details"><b>Usage Context:</b> Implemented Docker for containerizing applications and simplifying deployment processes.</p>
+                  <p class="skill-details"><b>Impact:</b> Streamlined application deployment, improved consistency across development and production environments, and facilitated efficient scaling of services.</p>
+              </div>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal" id="modal-blender" tabindex="-1" aria-labelledby="modal-block-normal" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="block block-rounded block-themed block-transparent mb-0">
+              <div class="block-content">
+                <div class="d-flex justify-content-end">
+                  <button type="button" class="btn-block-option text-end" data-bs-dismiss="modal" aria-label="Close" style="color: red;">
+                      <b>close</b>
+                  </button>
+                </div>
+
+                <div class="skill-container">
+                  <p class="skill-title"><b>Graphics</b></p>
+                  <p class="skill-details"><b>Years of Experience:</b> 2 years</p>
+                  <p class="skill-details"><b>Usage Context:</b> Utilized Blender for creating and manipulating 3D models and animations in research and industry projects.</p>
+                  <p class="skill-details"><b>Impact:</b> Enhanced visual representations and simulations, contributing to the development of realistic virtual environments and improving visualization capabilities.</p>
+              </div>
+
+              <div class="skill-container">
+                <p class="skill-title"><b>3D Data Synthesis</b></p>
+                <p class="skill-details"><b>Years of Experience:</b> 2 years</p>
+                <p class="skill-details"><b>Usage Context:</b> Applied in research and industry projects for generating synthetic 3D human data and manipulating poses to augment training datasets for machine learning models.</p>
+                <p class="skill-details"><b>Impact:</b> Enhanced the realism and diversity of training data, improving the generalization and performance of AI models in tasks related to human pose estimation, virtual try-on applications, and more.</p>
+            </div>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal" id="modal-redis" tabindex="-1" aria-labelledby="modal-block-normal" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="block block-rounded block-themed block-transparent mb-0">
+              <div class="block-content">
+                <div class="d-flex justify-content-end">
+                  <button type="button" class="btn-block-option text-end" data-bs-dismiss="modal" aria-label="Close" style="color: red;">
+                      <b>close</b>
+                  </button>
+                </div>
+
+                <div class="skill-container">
+                  <p class="skill-title"><b>Redis</b></p>
+                  <p class="skill-details"><b>Years of Experience:</b> 1 year</p>
+                  <p class="skill-details"><b>Usage Context:</b> Used Redis for caching and improving performance in web applications and data-intensive projects.</p>
+                  <p class="skill-details"><b>Impact:</b> Improved data access speeds, reduced database load, and enhanced overall application performance through efficient caching and data management strategies.</p>
+              </div>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main Container -->
+      <main id="main-container">
+
+        <div class="bg-image" style="background-image: url('assets/media/kundan/earth.png');">
+          <div class="bg-black-25">
+            <div class="content content-full">
+              <div class="py-5 text-center">
+                <a class="img-link" href="#">
+                  <img class="img-avatar img-avatar96 img-avatar-thumb" src="assets/media/kundan/kundan.jpg" alt="">
+                </a>
+                <h1 class="fw-bold my-2 text-white">Kundan Thota</h1>
+                <h2 class="h4 fw-bold text-white-75">
+                  Data Scientist <a class="text-primary-lighter" href="javascript:void(0)">@TramoGroup</a>
+                </h2>
+                <div class="content-side content-side-full bg-black-10 text-center">
+                  <div class="smini-hide">
+                    
+                    <a class="btn btn-sm btn-secondary"  data-bs-toggle="modal" data-bs-target="#modal-block-normal" href="#"> <i class="fa fa-2x fa-user opacity-75 p-1"></i> </a>
+                    <a class="btn btn-sm btn-secondary" target="_blank" href="https://www.linkedin.com/in/kundanthota/"> <i class="fab fa-2x  fa-linkedin-in opacity-75 p-1"></i> </a>
+                    <a class="btn btn-sm btn-secondary" target="_blank" href="https://github.com/kundanthota"> <i class="fab fa-2x fa-github opacity-75 p-1"></i> </a>
+                    <a class="btn btn-sm btn-secondary" target="_blank" href="https://scholar.google.com/citations?user=IOLl-wMAAAAJ&hl=en&oi=sra"> <i class="fab fa-2x fa-google opacity-75 p-1"></i> </a>
+                    <a class="btn btn-sm btn-secondary"  data-bs-toggle="modal" data-bs-target="#modal-info" href="#"> <i class="fa fa-2x fa-at opacity-75 p-1"></i> </a>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Page Content -->
+        <div class="content">
+          <!-- Quick Menu -->
+          <!-- END Quick Menu -->
+
+          <!-- Overview -->
+
+
+          <div class="block block-rounded row g-0">
+            <ul class="nav nav-tabs nav-tabs-block flex-md-column col-md-4 col-xxl-2" role="tablist">
+              <li class="nav-item d-md-flex flex-md-column" role="presentation">
+                <button class="nav-link text-md-start" id="btabs-vertical-info-home-tab" data-bs-toggle="tab" data-bs-target="#btabs-vertical-info-home" role="tab" aria-controls="btabs-vertical-info-home" aria-selected="false" tabindex="-1">
+                  <i class="fa fa-fw fa-code opacity-50 me-1 d-none d-sm-inline-block"></i>
+                  <span>Skills</span>
+                  <span class="d-none d-md-block fs-xs fw-medium opacity-75 mt-md-2">
+                    That I Possessed from my childhood
+                  </span>
+                </button>
+              </li>
+              <li class="nav-item d-md-flex flex-md-column" role="presentation">
+                <button class="nav-link text-md-start active" id="btabs-vertical-info-profile-tab" data-bs-toggle="tab" data-bs-target="#btabs-vertical-info-profile" role="tab" aria-controls="btabs-vertical-info-profile" aria-selected="true">
+                  <i class="fa fa-fw fa-chart-line opacity-50 me-1 d-none d-sm-inline-block"></i>
+                  <span>Experience</span>
+                  <span class="d-none d-md-block fs-xs fw-medium opacity-75 mt-md-2">
+                    Where I got recognition and pay for the skills
+                  </span>
+                </button>
+              </li>
+              <li class="nav-item d-md-flex flex-md-column" role="presentation">
+                <button class="nav-link text-md-start" id="btabs-vertical-info-settings-tab" data-bs-toggle="tab" data-bs-target="#btabs-vertical-info-settings" role="tab" aria-controls="btabs-vertical-info-settings" aria-selected="false" tabindex="-1">
+                  <i class="fa fa-fw fa-project-diagram opacity-50 me-1 d-none d-sm-inline-block"></i>
+                  <span>Projects</span>
+                  <span class="d-none d-md-block fs-xs fw-medium opacity-75 mt-md-2">
+                    Where I used them
+                  </span>
+                </button>
+              </li>
+            </ul>
+            <div class="tab-content col-md-8 col-xxl-10">
+              <div class="block-content tab-pane" id="btabs-vertical-info-home" role="tabpanel" aria-labelledby="btabs-vertical-info-home-tab" tabindex="0">
+                <div class="row push mb-0">
+
+                  <div class="col-md-4 mb-3">         
+                        <button type="button" class="btn shadow rounded w-100 pt-2 pb-2 text-start pop-effect" data-bs-toggle="modal" data-bs-target="#modal-ml" href="#">
+                          <img class="ms-1 me-3" src="assets/media/kundan/ml.png"> 
+                          Machine learning
+                        </button>
+                  </div>
+
+                  <div class="col-md-4 mb-3">         
+                    <button type="button" class="btn shadow rounded w-100 pt-2 pb-2 text-start pop-effect" data-bs-toggle="modal" data-bs-target="#modal-dl" href="#">
+                      <img class="ms-1 me-3" src="assets/media/kundan/dl.png"> 
+                      Deep Learning
+                    </button>
+                  </div>
+
+                  <div class="col-md-4 mb-3">         
+                    <button type="button" class="btn shadow rounded w-100 pt-2 pb-2 text-start pop-effect" data-bs-toggle="modal" data-bs-target="#modal-cv" href="#">
+                      <img class="ms-1 me-3" src="assets/media/kundan/cv.png"> 
+                      Computer Vision
+                    </button>
+                  </div>
+
+                  <div class="col-md-4 mb-3">         
+                    <button type="button" class="btn shadow rounded w-100 pt-2 pb-2 text-start pop-effect" data-bs-toggle="modal" data-bs-target="#modal-nlp" href="#">
+                      <img class="ms-1 me-3" src="assets/media/kundan/nlp.png"> 
+                      NLP
+                    </button>
+                  </div>
+
+
+
+                  <div class="col-md-4 mb-3">         
+                    <button type="button" class="btn shadow rounded w-100 pt-2 pb-2 text-start pop-effect" data-bs-toggle="modal" data-bs-target="#modal-tsa" href="#">
+                      <img class="ms-1 me-3" src="assets/media/kundan/tsa.png"> 
+                      Time Series Analysis
+                    </button>
+                  </div>
+
+
+
+                  <div class="col-md-4 mb-3">         
+                    <button type="button" class="btn shadow rounded w-100 pt-2 pb-2 text-start pop-effect" data-bs-toggle="modal" data-bs-target="#modal-ip" href="#">
+                      <img class="ms-1 me-3" src="assets/media/kundan/opencv.png"> 
+                      Image Processing
+                    </button>
+                  </div>
+
+
+
+                  <div class="col-md-4 mb-3">         
+                    <button type="button" class="btn shadow rounded w-100 pt-2 pb-2 text-start pop-effect" data-bs-toggle="modal" data-bs-target="#modal-python" href="#">
+                      <img class="ms-1 me-3" src="assets/media/kundan/python.png"> 
+                     Python
+                    </button>
+                  </div>
+
+
+
+                  <div class="col-md-4 mb-3">         
+                    <button type="button" class="btn shadow rounded w-100 pt-2 pb-2 text-start pop-effect" data-bs-toggle="modal" data-bs-target="#modal-vue" href="#">
+                      <img class="ms-1 me-3" src="assets/media/kundan/vuejs.png"> 
+                      Vue.js
+                    </button>
+                  </div>
+
+
+
+                  <div class="col-md-4 mb-3">         
+                    <button type="button" class="btn shadow rounded w-100 pt-2 pb-2 text-start pop-effect" data-bs-toggle="modal" data-bs-target="#modal-mongodb" href="#">
+                      <img class="ms-1 me-3" src="assets/media/kundan/mongodb.png"> 
+                      MongoDB
+                    </button>
+                  </div>
+
+
+
+                  <div class="col-md-4 mb-3">         
+                    <button type="button" class="btn shadow rounded w-100 pt-2 pb-2 text-start pop-effect" data-bs-toggle="modal" data-bs-target="#modal-git" href="#">
+                      <img class="ms-1 me-3" src="assets/media/kundan/git.png"> 
+                      GIT
+                    </button>
+                  </div>
+
+                  
+                  <div class="col-md-4 mb-3">         
+                    <button type="button" class="btn shadow rounded w-100 pt-2 pb-2 text-start pop-effect" data-bs-toggle="modal" data-bs-target="#modal-fastapi" href="#">
+                      <img class="ms-1 me-3" src="assets/media/kundan/fastapi.jpeg"> 
+                      FastAPI
+                    </button>
+                  </div>
+
+
+
+                  <div class="col-md-4 mb-3">         
+                    <button type="button" class="btn shadow rounded w-100 pt-2 pb-2 text-start pop-effect" data-bs-toggle="modal" data-bs-target="#modal-docker" href="#">
+                      <img class="ms-1 me-3" src="assets/media/kundan/docker.png"> 
+                      Docker
+                    </button>
+                  </div>
+
+                  <div class="col-md-4 mb-3">         
+                    <button type="button" class="btn shadow rounded w-100 pt-2 pb-2 text-start pop-effect" data-bs-toggle="modal" data-bs-target="#modal-blender" href="#">
+                      <img class="ms-1 me-3" src="assets/media/kundan/blender.png"> 
+                      Blender
+                    </button>
+                  </div>
+
+
+
+                  <div class="col-md-4 mb-3">         
+                    <button type="button" class="btn shadow rounded w-100 pt-2 pb-2 text-start pop-effect" data-bs-toggle="modal" data-bs-target="#modal-redis" href="#">
+                      <img class="ms-1 me-3" src="assets/media/kundan/redis.png"> 
+                      Redis
+                    </button>
+                  </div>
+
+
+
+              </div>
+              </div>
+              <div class="block-content tab-pane active show" id="btabs-vertical-info-profile" role="tabpanel" aria-labelledby="btabs-vertical-info-profile-tab" tabindex="0">
+                
+                <ul class="timeline timeline-alt timeline-centered">
+                  <li class="timeline-event">
+                    <div class="timeline-event-icon bg-white">
+                      <img class="img-fluid" src="assets/media/kundan/tramo.png" alt="">
+                    </div>
+                    <div class="timeline-event-block block block-rounded shadow">
+                      <div class="block-header block-header-default">
+                        <h3 class="block-title">Data Scientist</h3>
+                        <div class="block-options">
+                          <div class="timeline-event-time block-options-item fs-sm fw-semibold text-center d-none d-md-block">
+                            <h6 class="mb-1">Tramo Service</h6>
+                            <small>August 2023 -- Current</small>
+                          </div>
+                          <button type="button" class="btn-block-option" data-toggle="block-option" data-action="content_toggle"><i class="si si-arrow-up"></i></button>
+                        </div>
+                      </div>
+                      <div class="block-content">
+                        <ul class="nav flex-column">
+                          <li class="nav-item">
+                            <p><small>+ Building and maintaining a user-friendly web interface for real-time traffic monitoring and analysis.</small></p>
+                          </li>
+                          <li class="nav-item">
+                            <p><small>+ Developing backend systems to control LED speed screens and adjust speed limits based on traffic conditions.</small></p>
+                          </li>
+                          <li class="nav-item">
+                            <p><small>+ Creating tools for clear and effective visualization of traffic data using Python, and data visualization libraries.</small></p>
+                          </li>
+                          <li class="nav-item">
+                            <p><small>+ Implemented document management automation tools for automatic text extraction, analysis, and classification using OCR and document analysis techniques.</small></p>
+                          </li>
+                          <li class="nav-item">
+                            <p><small>+ Fine-tuned YOLOv5 model on custom datasets for accurate road accident detection and integrated it into the camera system for real-time safety enhancement.</small></p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="timeline-event">
+                    <div class="timeline-event-icon bg-white">
+                      <img class="img-fluid" src="assets/media/kundan/shapematchr.png" alt="">
+                    </div>
+                    <div class="timeline-event-block block block-rounded shadow block-mode-hidden">
+                      <div class="block-header block-header-default">
+                        <h3 class="block-title">Machine Learning Engineer</h3>
+                        <div class="block-options">
+                          <div class="timeline-event-time block-options-item fs-sm fw-semibold text-center d-none d-md-block">
+                            <h6 class="mb-1">Shapematchr GmbH</h6>
+                            <small>June 2022 -- June 2023</small>
+                          </div>
+                          <button type="button" class="btn-block-option" data-toggle="block-option" data-action="content_toggle"><i class="si si-arrow-up"></i></button>
+                        </div>
+                      </div>
+                      <div class="block-content">
+                        <ul class="nav flex-column">
+                          <li class="nav-item">
+                            <p><small>+ Developed and designed a recommendation engine using Python, PyTorch, and Blender for personalized product recommendations.</small></p>
+                          </li>
+                          <li class="nav-item">
+                            <p><small>+ Utilized advanced data visualization techniques and Vue.js for building intuitive web portals.</small></p>
+                          </li>
+                          <li class="nav-item">
+                            <p><small>+ Integrated REST APIs, MongoDB, and Keycloak for secure and efficient data handling and user management.</small></p>
+                          </li>
+                          <li class="nav-item">
+                            <p><small>+ Employed computer vision techniques with Blender and PyTorch for 3D human avatar reconstruction and body measurement estimation.</small></p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+
+
+                  <li class="timeline-event">
+                    <div class="timeline-event-icon bg-white">
+                      <img class="img-fluid" src="assets/media/kundan/dfki.jpeg" alt="">
+                    </div>
+                    <div class="timeline-event-block block block-rounded shadow block-mode-hidden">
+                      <div class="block-header block-header-default">
+                        <h3 class="block-title">Guest Researcher</h3>
+                        <div class="block-options">
+                          <div class="timeline-event-time block-options-item fs-sm fw-semibold text-center d-none d-md-block">
+                            <h6 class="mb-1">DFKI Kaiserslautern</h6>
+                            <small>June 2022 -- June 2023</small>
+                          </div>
+                          <button type="button" class="btn-block-option" data-toggle="block-option" data-action="content_toggle"><i class="si si-arrow-up"></i></button>
+                        </div>
+                      </div>
+                      <div class="block-content">
+                        <ul class="nav flex-column">
+                          <li class="nav-item">
+                            <p><small>+ Published research papers using Python, PyTorch, Blender, and LaTeX for advanced 3D body shape estimation and virtual try-on networks.</small></p>
+                          </li>
+                          <li class="nav-item">
+                            <p><small>+ Applied computer vision techniques including image processing and deep learning for scientific research.</small></p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  
+                  <li class="timeline-event">
+                    <div class="timeline-event-icon bg-white">
+                      <img class="img-fluid" src="assets/media/kundan/fraunhofer.jpeg" alt="">
+                    </div>
+                    <div class="timeline-event-block block block-rounded shadow block-mode-hidden">
+                      <div class="block-header block-header-default">
+                        <h3 class="block-title">Researcher</h3>
+                        <div class="block-options">
+                          <div class="timeline-event-time block-options-item fs-sm fw-semibold text-center d-none d-md-block">
+                            <h6 class="mb-1">Fraunhofer IOSB</h6>
+                            <small>August 2021 -- June 2022</small>
+                          </div>
+                          <button type="button" class="btn-block-option" data-toggle="block-option" data-action="content_toggle"><i class="si si-arrow-up"></i></button>
+                        </div>
+                      </div>
+                      <div class="block-content">
+                        <ul class="nav flex-column">
+                          <li class="nav-item">
+                            <p><small>+ Developed ML-based optimization models using Python, PyTorch, and scikit-learn to improve industrial operational efficiency.</small></p>
+                          </li>
+                          <li class="nav-item">
+                            <p><small>+ Created real-time training applications with Vue.js, REST APIs, and dashboards for enhancing machine learning model accuracy.</small></p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  
+
+                  <li class="timeline-event">
+                    <div class="timeline-event-icon bg-gray-dark">
+                      <img class="img-fluid" src="assets/media/kundan/svl_logo.png" alt="">
+                    </div>
+                    <div class="timeline-event-block block block-rounded shadow block-mode-hidden">
+                      <div class="block-header block-header-default">
+                        <h3 class="block-title">Software Developer</h3>
+                        <div class="block-options">
+                          <div class="timeline-event-time block-options-item fs-sm fw-semibold text-center d-none d-md-block">
+                            <h6 class="mb-1">Sociovestix Labs</h6>
+                            <small>April 2020 -- June 2021</small>
+                          </div>
+                          <button type="button" class="btn-block-option" data-toggle="block-option" data-action="content_toggle"><i class="si si-arrow-up"></i></button>
+                        </div>
+                      </div>
+                      <div class="block-content">
+                        <ul class="nav flex-column">
+                          <li class="nav-item">
+                            <p><small>+ Developed Python scripts for stock data retrieval, calculations, and Neural Network training on Linux servers.</small></p>
+                          </li>
+                          <li class="nav-item">
+                            <p><small>+ Utilized Python Dash web framework for presenting project results and developed web scrapers for data collection.</small></p>
+                          </li>
+                          <li class="nav-item">
+                            <p><small>+ Containerized processes using Docker for deployment on servers and automated database updates.</small></p>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>               
+
+                </ul>
+  
+              </div>
+              <div class="block-content tab-pane" id="btabs-vertical-info-settings" role="tabpanel" aria-labelledby="btabs-vertical-info-settings-tab" tabindex="0">
+                <div class="row push mb-0">
+                    <div id="carouselExampleCaptions" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/media/kundan/fashion.png" class="d-block w-100 carousel-image" alt="Carousel Image 1">
+                                <div class="carousel-caption d-none d-md-block bg-black-50">
+                                  <h1>Human Cloth Generation for different pose sequences</h1>
+                                  <p>The goal of this project was to develop a system that generates realistic human clothes for different poses using advanced machine learning techniques. This involves creating a model that can understand and predict how clothes will look and behave when a person moves into various positions.</p>
+                                  
+                                  <h2>Key Achievements:</h2>
+                                  <ul>
+                                      <li>
+                                          <strong>Mesh GAN Implementation:</strong>
+                                          <ul>
+                                              <li>Developed a Generative Adversarial Network (GAN) with a unique mesh patch-wise discriminator.</li>
+                                              <li>This network is designed to create high-quality, realistic human clothes for different poses, ensuring that the generated garments look natural and plausible.</li>
+                                          </ul>
+                                      </li>
+                                      <li>
+                                          <strong>Graph Convolution CVAE-GAN Training:</strong>
+                                          <ul>
+                                              <li>Trained a Graph Convolution Conditional Variational Autoencoder GAN (CVAE-GAN).</li>
+                                              <li>This model learns the displacement and deformation of clothes when a person transitions between different poses.</li>
+                                              <li>Utilized graph neural networks to effectively model the complex relationships and interactions within the cloth meshes.</li>
+                                          </ul>
+                                      </li>
+                                  </ul>
+                                  
+                                  <h2>Technical Stack:</h2>
+                                  <ul>
+                                      <li><strong>Python:</strong> Primary programming language used for the implementation.</li>
+                                      <li><strong>PyTorch:</strong> Deep learning framework used for building and training the GAN and CVAE-GAN models.</li>
+                                      <li><strong>Graph Neural Networks:</strong> Employed to handle the mesh data and model the structure of the clothes.</li>
+                                      <li><strong>GANs (Generative Adversarial Networks):</strong> Used for generating realistic clothing images.</li>
+                                      <li><strong>Variational Autoencoder (VAE):</strong> Helps in learning the latent representations of the clothes' displacement.</li>
+                                  </ul>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/media/kundan/anime.gif" class="d-block w-100 carousel-image" alt="Carousel Image 2">
+                                <div class="carousel-caption d-none d-md-block bg-black-50">
+                                  <h1>Estimation Of 3D avatar And Clothing Measurements</h1>
+                                    <p>The aim of the project is to develop a simple and efficient system for estimating 3D avatar and clothing measurements from front- and side-view images, suitable for integration into mobile applications.</p>
+                                    <h2>Key Achievements:</h2>
+                                    <ul>
+                                        <li>
+                                            <strong>Proposed Architecture:</strong>
+                                            <ul>
+                                                <li>Proposed a simple yet effective architecture to estimate shape and measures from the front- and side-view images.</li>
+                                                <li>Designed an auto-encoder network to learn low-dimensional features from segmented human silhouettes.</li>
+                                                <li>Adopted a kernel-based regularized regression module to estimate the body shape and measurements from the features extracted using the trained encoder.</li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <strong>Model Capabilities:</strong>
+                                            <ul>
+                                                <li>The model can estimate 3D shape and clothing measures with a model size of 25 MB, which is easy to embed into mobile apps.</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    
+                                    <h2>Technical Stack:</h2>
+                                    <ul>
+                                        <li><strong>Implementation:</strong> Implemented in Python.</li>
+                                        <li><strong>Technology:</strong> Utilized auto-encoder networks and kernel-based regression.</li>
+                                        <li><strong>Application:</strong> Designed for mobile app integration.</li>
+                                    </ul>
+                                    
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/media/kundan/pairs.png" class="d-block w-100 carousel-image" alt="Carousel Image 3">
+                                <div class="carousel-caption d-none d-md-block bg-black-50">
+                                  <h1>Pairs Trading Strategy with News Sentiment Analysis</h1>
+                                  <p>This project aimed to enhance the traditional pairs trading strategy by incorporating news sentiment analysis. The objective was to use sentiment data from news articles to predict and leverage correlation discrepancies between pairs of stocks, thus improving trading decisions and outcomes.</p>
+                                  
+                                  <h2>Key Achievements:</h2>
+                                  <ul>
+                                      <li>
+                                          <strong>Correlation Analysis:</strong>
+                                          <ul>
+                                              <li>Conducted correlation tests to identify pairs of stocks with high historical correlation.</li>
+                                              <li>This step is crucial for selecting suitable pairs for trading based on their price movements' interdependence.</li>
+                                          </ul>
+                                      </li>
+                                      <li>
+                                          <strong>News Sentiment Analysis:</strong>
+                                          <ul>
+                                              <li>Analyzed news sentiment using sources like News-API and GDELT to gauge the market's perception of the companies.</li>
+                                              <li>Developed methods to measure the popularity and sentiment around the stocks, predicting potential changes in their correlation.</li>
+                                          </ul>
+                                      </li>
+                                      <li>
+                                          <strong>Trading Strategy Development:</strong>
+                                          <ul>
+                                              <li>Created trading signals based on the sentiment and popularity data.</li>
+                                              <li>Developed and back-tested trading strategies using these signals, evaluating their performance on historical market data.</li>
+                                              <li>Implemented holding periods and threshold values to refine the trading strategy and maximize returns.</li>
+                                          </ul>
+                                      </li>
+                                  </ul>
+                                  
+                                  <h2>Technical Stack:</h2>
+                                  <ul>
+                                      <li><strong>Python:</strong> Used for scripting and analysis.</li>
+                                      <li><strong>Sentiment Analysis:</strong> Used NLP to extract and quantify the sentiment expressed in news articles.</li>
+                                      <li><strong>Web Scraping:</strong> Employed to collect data from various news sources.</li>
+                                      <li><strong>Back Testing:</strong> Implemented to simulate the trading strategy on historical data and evaluate its performance.</li>
+                                  </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+              
+            </div>
+          </div>
+         
+        <!-- END Page Content -->
+      </main>
+      <!-- END Main Container -->
+
+      <!-- Footer -->
+      <!-- END Footer -->
+    </div>
+    <!-- END Page Container -->
+
+    <script src="assets/js/all.app.min.js"></script>
+    
+  </body>
+</html>
